@@ -1,0 +1,16 @@
+{
+	"name": "fmi-fe-html-2023",
+	"version": "1.0.0",
+	"description": "HTML introductory course by SAP Labs Bulgaria for FMI 2023",
+	"main": "index.html",
+	"author": "Konstantin Gogov",
+	"license": "MIT",
+	"scripts": {
+		"start": "http-server -p 8000 -c-1"
+	},
+	"dependencies": {
+		"http-server": "^14.1.1",
+		"reveal.js": "^4.6.1",
+		"reveal.js-copycode": "^1.1.2"
+	}
+}
